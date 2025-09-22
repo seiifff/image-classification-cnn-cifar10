@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Artifacts
+artifacts/
+*.keras
+*.h5
+saved_model/
+*.tflite
+
+# Data (never commit datasets)
+data/
+*.tar
+*.tar.gz
+*.zip
